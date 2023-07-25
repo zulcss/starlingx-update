@@ -2,7 +2,6 @@ Source: starlingx-update
 Section: admin
 Priority: optional
 Maintainer: chuck <zulcss@gmail.com>
-Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
@@ -16,5 +15,5 @@ Depends:
  ${misc:Depends},
  ansible,
  sl,
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: starlingx update
+ installs sl - train as a service
