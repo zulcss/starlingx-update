@@ -1,0 +1,19 @@
+Source: starlingx-update
+Section: unknown
+Priority: optional
+Maintainer: chuck <zulcss@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/starlingx-update
+#Vcs-Git: https://salsa.debian.org/debian/starlingx-update.git
+
+Package: starlingx-update
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>

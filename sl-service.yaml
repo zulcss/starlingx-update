@@ -1,0 +1,9 @@
+---
+- name: install the sl service
+  hosts: localhost
+  become: true
+  tasks:
+    - name: install the sl service
+      apt:
+        name: sl
+        state: present
